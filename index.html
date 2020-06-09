@@ -1,0 +1,59 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="Style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+  </head>
+  
+  <div class="container">
+    <div class="background-layer">
+     <div id="title">
+      <h1> ASU Online Learning Survey </h1>
+      <p id="description"> We are looking for feedback on how online learning is working for you!</p>
+    </div>
+    <form id="survey-form">
+      <label for="fmame" id="name-label"> Name</label> <br>
+      <input id="name" name="fname" placeholder="Your name" type="text"/> <br> <br>
+      <label for="femail" id="email-label">Email</label> <br>
+      <input id="email" name ="femail" placeholder="Your Email" type="email" required/> <br> <br>
+      <label for="studentid" id="number-label">Student ID</label> <br>
+      <input id="number" name="studentid" placeholder="Your Student ID #" min="000001" max="999999" type="number"/><br> <br>
+      <label for="fgrade" id="grade-label"> Grade</label> <br>
+      <select id="dropdown" name="fgrade" required>
+        <option value="freshman">Freshman</option>
+        <option value="sophomore">Sophomore</option>
+        <option value="junior">Junior</option>
+        <option value="senior">Senior</option>
+      </select> <br>
+      
+      
+        <br> <label for="radio">Would you recommend online learning?</label> <br> <br>
+   <div class="form-group">
+          <input type="radio" id="yes" name="learning" value="yes">
+          <label for="male">Yes</label><br>
+          <input type="radio" id="no" name="learning" value="no">
+          <label for="female">No</label><br>
+          <input type="radio" id="maybe" name="learning" value="maybe">
+          <label for="other">Maybe</label>
+  
+      
+  
+        
+      </div>
+      
+      <br> <label for="checkbox">What is difficult about online learning?</label> <br> <br>
+      
+      <div class="form-group">
+        <input type="checkbox" id="yes" name="difficult" value="motivation">
+          <label for="male">Self-motivation</label><br>
+          <input type="checkbox" id="no" name="difficult" value="virtual">
+          <label for="female">Virtual meeting software</label><br>
+          <input type="checkbox" id="maybe" name="difficult" value="teacher">
+          <label for="other">Contacting my professor</label>
+      </div>
+      <br> <label for="text-entry">Is there anything we could do to improve online learning?</label> <br> <br>
+      <textarea type="submit"id="textarea" placeholder="Tell us what we can do better..."></textarea>
+      
+      <br> <br> <button type="submit" id="submit" class="submit-button"> Submit </button>
+      
+    </form>
+    </div>
+  </div>

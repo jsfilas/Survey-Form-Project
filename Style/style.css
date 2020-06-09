@@ -1,0 +1,127 @@
+.container {
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+  }
+  
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+  
+  #dropdown {
+    cursor: pointer;
+  }
+  
+  body {
+    background-image: linear-gradient(
+    100deg,
+    rgba(140,29,64, 0.4),
+      rgba(140,29,64, 0.4)
+    ),
+      url(https://studentlife.asu.edu/sites/default/files/styles/panopoly_image_original/public/tryouts_to_be_the_next_sparky_will_be_on_mar_16_at_5_p.m._at_phoenix_municipal_stadium.jpg?itok=kxTKkatG);
+   
+  }
+  
+  form {
+    background-color: rgba(255, 198, 39, 0.8);
+    border-radius: 10px;
+    padding: 15px;
+  }
+  
+  #title {
+    color: rgb(140,29,64);
+    text-align: center;
+      
+  }
+  
+  h1 {
+    font-size: 55px;
+    text-shadow: 
+      -.5px -.5px #FFC627,
+      .5px -.5px #FFC627,
+    -.5px .5px #FFC627,
+      .5px .5px #FFC627;
+  }
+  
+  p {
+    font-size: 20px;
+    color: White;
+  }
+  
+  input[type="email"]{
+    width: 95%;
+    padding: 10px 4px;
+    margin: 8px 0;
+    border: 2px solid #8C1D40;
+    border-radius: 5px;
+  }
+  
+  input[type="text"]{
+    width: 95%;
+    padding: 10px 4px;
+    margin: 8px 0;
+    border: 2px solid #8C1D40;
+    border-radius: 5px;
+  }
+  input[type="number"]{
+    width: 95%;
+    padding: 10px 4px;
+    margin: 8px 0;
+    border: 2px solid #8C1D40;
+    border-radius: 5px;
+  }
+  input[type="radio"]{
+    
+  }
+  
+  
+  select {
+    width: 97%;
+    padding: 10px 4px;
+    margin: 8px 0;
+    border: 2px solid #8C1D40;
+    border-radius: 5px;
+  }
+  
+  
+  label {
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+   
+  }
+  
+  .form-group label{
+    font-size: 16px;
+  }
+  
+  textarea {
+    width: 95%;
+    padding: 4px;
+  }
+  
+  .submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #56c47d;
+    border-color: #56c47d;
+    border-radius: 2px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  
+  
+  
